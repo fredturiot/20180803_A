@@ -4,25 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _20180803_C_poluymorphisme
+namespace _20180803_C_polymorphisme
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("A1");
             var a1 = new A1();
-            var a2 = new A2();
+            //var a2 = new A2();
 
             var b = new B();
             var b1 = new B1();
             var b2 = new B2();
             var b3 = new B3();
-
+            
             a1.Methode();
-            a2.Methode();
+            //a2.Methode();
 
             b.Methode();
-            b1.Methode();
+            b1.Methode();          
             b2.Methode();
             b3.Methode();
 
@@ -34,6 +35,7 @@ namespace _20180803_C_poluymorphisme
         public abstract class A
         {
             public abstract void Methode();
+           
         }
         public class A1 : A
         {
@@ -42,12 +44,16 @@ namespace _20180803_C_poluymorphisme
                 Console.WriteLine("A1");
             }
         }
-        public class A2 : A { }//erreur car pas d'implementation de l abstract
+        //public class A2 : A//erreur car pas d'implementation de l abstract
+        //{
+        //}
 
         public class B
         {
             public virtual void Methode()
-            { }
+            {
+                Console.WriteLine("B");
+            }
 
         }
         public class B1 :B
