@@ -7,6 +7,11 @@
         //finir par =X; donne une valeur par defaut
 
         public CategorieVoiture Categorie { get; set; }
+
+        public override double GetPrixJour()// a cause du abstract sur vehicule
+        {
+            return Categorie.PrixJour;
+        }
     }
 
 }

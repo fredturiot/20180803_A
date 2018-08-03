@@ -5,10 +5,12 @@
         public string Marque { get; set; }
         public string Modele { get; set; }
 
-        public double GetPrixJour()
+        public abstract double GetPrixJour(); //passage en abstract
+        /*
         {
             return 0;
         }
+        */
     }
 
 }

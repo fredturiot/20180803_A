@@ -5,6 +5,10 @@
         public int PoidsMaxEnKilo { get; set; }
         public int PrixJour { get; set; }
 
+        public override double GetPrixJour() // a cause du abstract sur vehicule
+        {
+            return PrixJour;           
+        }
     }
 
 }

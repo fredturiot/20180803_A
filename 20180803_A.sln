@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20180803_A", "20180803_A\20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20180803_B_TP heritage", "20180803_B_TP heritage\20180803_B_TP heritage.csproj", "{A8880D30-536F-4246-B453-05053D5CD4B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20180803_C_poluymorphisme", "20180803_C_poluymorphisme\20180803_C_poluymorphisme.csproj", "{4556F7BA-AC23-4344-AED8-7A3732DE3F1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A8880D30-536F-4246-B453-05053D5CD4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8880D30-536F-4246-B453-05053D5CD4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8880D30-536F-4246-B453-05053D5CD4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4556F7BA-AC23-4344-AED8-7A3732DE3F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4556F7BA-AC23-4344-AED8-7A3732DE3F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4556F7BA-AC23-4344-AED8-7A3732DE3F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4556F7BA-AC23-4344-AED8-7A3732DE3F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
